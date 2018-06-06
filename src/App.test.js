@@ -6,3 +6,6 @@ it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
 });
+
+// transitioning from the create-react-app to github didn't work
+// also had trouble rendering buttons
